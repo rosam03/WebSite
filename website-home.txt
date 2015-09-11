@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href=http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css rel=stylesheet>
+<meta name=viewport content="width=device-width, initial-scale=.9">
+</head>
+<body class='homePage  wsite-theme-light'>
+<div id=body>
+<div class=nav>
+<div class=container>
+<div class="leftTab pull-left">
+<ul class="nav nav-pills">
+<li class=active>
+<a id=about href=http://www.rosamohammadi.weebly.com>
+</a>
+</li>
+<li class=TechnicalProjects>
+<a id=projects></a>
+<ul class=dropdown-menu id=menu1>
+<li class=dropdown-header>Software</li>
+<li>
+<a class=webdesign href=http://www.rosamohammadi.weebly.com/projects.html>
+Web Design</a>
+</li>
+<li>
+<a class=musiccat href=http://www.rosamohammadi.weebly.com/projects-query.html>
+Query Music Catalogue</a>
+</li>
+<li>
+<a class=server href=http://www.rosamohammadi.weebly.com/projects-server.html>
+Server/Client Communication</a>
+</li>
+<li class=divider></li>
+<li class=dropdown-header>Hardware</li>
+<li>
+<a class=glove href=http://www.rosamohammadi.weebly.com/projects-glove.html>
+Wireless Gesture Controlled Glove</a>
+</li>
+<li>
+<a class=robot href=http://www.rosamohammadi.weebly.com/projects-robot.html>
+Autonomous Cleaning Robot</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="rightTab pull-right">
+<ul class="nav nav-pills">
+<li>
+<a href=http://www.rosamohammadi.weebly.com/webdesign.html id=webdesign>
+</a>
+</li>
+<li>
+<a href=http://www.rosamohammadi.weebly.com/personal.html id=blog>
+</a>
+</li>
+<li>
+<a href=http://www.rosamohammadi.weebly.com/contact.html id=contact>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class=jumbotron>
+<div class=container>
+<h1>Rosa Mohammadi</h1>
+<p>Computer Engineering Student from the University of British
+Columbia..</p><a href=http://www.rosamohammadi.weebly.com/contact.html>Find out how
+to contact me</a>
+</div>
+</div>
+<div class=learn-more>
+<div class=container>
+<div class=row>
+<div class=col-md-3>
+<h3>Education</h3>
+<p>3rd Year Computer Engineering Student at the
+University of <br>British Columbia (Vancouver campus)</p>
+<p>Completed 4 of 8 academic terms</p>
+<p>Expected to graduate May 2017</p>
+<p>Completed 0 of 4 Co-op work terms</p>
+<p><a href=http://www.coop.apsc.ubc.ca>Visit the UBC
+Co-op website</a></p>
+</div>
+<div class=col-md-3>
+<h3>Technical Projects</h3>
+<h6>Software</h6>
+<ul class=softwareProjects>
+<li>Web Design for Personal Biography</li>
+<li>Querying Music Catalogue</li>
+<li>Simple Web Server</li>
+<li>Communicating Client with Server</li>
+</ul>
+<h6>Hardware</h6>
+<ul class=hardwareProjects>
+<li>Wireless Gesture-Controlled Glove</li>
+<li>Autonomous Cleaning Robot</li>
+</ul>
+<p></p>
+<p><a href=http://www.rosamohammadi.weebly.com/projects.html>Learn
+more about these projects</a></p>
+</div>
+<div class=col-md-3>
+<h3>Computer Languages</h3>
+<ul class=computerLanguages>
+<li>C</li>
+<li>Java</li>
+<li>PHP</li>
+<li>VHDL</li>
+<li>Assembly</li>
+<li>Bash</li>
+<li>JavaScript</li>
+<li>MATLAB</li>
+</ul>
+<h6>Framework</h6>
+<ul class=framework>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
+</div>
+<div class=col-md-3>
+<h3>Software Tools</h3>
+<ul class=softwareTools>
+<li>Eclipse</li>
+<li>Visual Studio</li>
+<li>ModelSim</li>
+<li>Quartus II</li>
+<li>Processing IDE</li>
+<li>Arduino IDE</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style=display:none>
+{title}
+</div>
+<div style=display:none>
+{menu}
+</div>
+<div style=display:none>
+{content}
+</div>
+<div style=padding:20px;width:100%;text-align:center>
+{footer}
+</div>
+<div class=footer>
+<h6>Designed and Developed by Rosa Mohammadi
+<br>July 2015</h6>
+</div>
+</body>
+</html>
