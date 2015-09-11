@@ -1,0 +1,159 @@
+/* SAMPLE ONLY  - COMMENTS REMOVED TO IMPROVE PAGE SPEED*/
+
+
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
+
+#weebly-footer-signup-container {
+	display:none;
+}
+
+#footer {
+	display:none;
+}
+#body {
+	height:100%;
+	width:100%;
+	min-width:window.width;
+	min-height: window.height;
+}
+
+.nav {
+	padding:.5%;
+}
+
+.nav #about:before{
+		content:"ABOUT ROSA";
+	}
+.nav #projects:before{
+		content:"TECHNICAL PROJECTS";
+	}
+	
+.nav #webdesign:before{
+		content:"WEB DESIGN";
+	}
+.nav #blog:before{
+		content:"PERSONAL BLOG";
+	}
+.nav #contact:before{
+		content:"CONTACT INFORMATION";
+	}
+	
+
+.nav .leftTab {
+	max-width:35%;
+}
+
+.nav .rightTab {
+	max-width:65%;
+}
+
+
+@media screen and (max-device-width: 480px) {
+	
+	.nav a {
+		padding:7px 5px !important;
+	}
+	
+	.nav {
+		padding:2px !important;
+	}
+	
+	.nav #about:before{
+		content:"HOME" !important;
+	}
+	
+	.nav #webdesign:before{
+			content:"WEB DESIGN" !important;
+		}
+	.nav #blog:before{
+			content:"BLOG" !important;
+		}
+	.nav #contact:before{
+			content:"CONTACT" !important;
+		}	
+	.nav #projects:before{
+			content:"PROJECTS" !important;
+	}	
+
+	
+}
+
+
+.nav .container ul {
+	display:inline;
+}
+
+.nav .container a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav .dropdown-menu .dropdown-header {
+	color:gray;
+	text-align:left;
+}
+
+.nav .dropdown-menu a {
+	margin-top:-5px;
+	margin-bottom:-5px;
+}
+
+
+.nav .dropdown-menu {
+	margin-top:0px;
+}
+
+.jumbotron {
+  height: 200px;
+  background-size: 100% 200px;
+   background-color: rgba(102,206,250,1);
+	background: -moz-linear-gradient(top, rgba(102,206,250,1) 0%, rgba(102,206,250,1) 6%, rgba(207,241,252,1) 50%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(102,206,250,1)), color-stop(6%, rgba(102,206,250,1)), color-stop(50%, rgba(207,241,252,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(102,206,250,1) 0%, rgba(102,206,250,1) 6%, rgba(207,241,252,1) 50%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(102,206,250,1) 0%, rgba(102,206,250,1) 6%, rgba(207,241,252,1) 50%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(102,206,250,1) 0%, rgba(102,206,250,1) 6%, rgba(207,241,252,1) 50%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(102,206,250,1) 0%, rgba(102,206,250,1) 6%, rgba(207,241,252,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  margin-left:40px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #a0d8f1
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+  width:100%;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
