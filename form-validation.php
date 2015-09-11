@@ -1,6 +1,8 @@
 
 <?php
 
+define("THRESHOLD", 9);
+
 // Retreive visitor name, email, and message from form
 $visitor_name =  $_POST["name"];
 $visitor_email = $_POST["email"];
@@ -14,13 +16,13 @@ $invalid_message ="/[<>\_{}]/" ; // Message body cannot contain symbols that mig
     // If any invalid characters are detected, exit
     if(preg_match($invalid_name, $visitor_name) || preg_match($invalid_message, $visitor_message) || preg_match($invalid_email, $visitor_email) ) {
 
-    echo "One or more of the characters you entered in the fields is not allowed. Please try again."."<br><br>"."Names can only contain letters and periods.<br>"."Emails can only contain letters, numbers, and the following symbols: @ . + _ - <br>"."Messages must not contain the following: < > \ { }<br>";
+	echo "One or more of the characters you entered in the fields is not allowed. Please try again."."<br><br>"."Names can only contain letters and periods.<br>"."Emails can only contain letters, numbers, and the following symbols: @ . + _ - <br>"."Messages must not contain the following: < > \ { }<br>";
 
-    exit;
+	exit;
 
     }
 
-    else if( strlen($visitor_message) > 9 ) { // Mail if the message is more than 9 characters long 
+    else if( strlen($visitor_message) > THRESHOLD ) { // Mail if the message is more than THRESHOLD characters long 
 
 	if(strlen($visitor_name) == 0){ // Warn visitor if name field left blank
 
@@ -59,7 +61,7 @@ $invalid_message ="/[<>\_{}]/" ; // Message body cannot contain symbols that mig
 
     }
 
-    else{ // If message body was 9 characters or less, it probably does not contain useful information
+    else{ // If message body was THRESHOLD characters or less, it probably does not contain useful information
 
 	echo "Email cannot be sent when message field is blank. Please try again."."<br>";
 
